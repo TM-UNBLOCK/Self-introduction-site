@@ -4,60 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>自己紹介サイト</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
 </head>
-<body>
-    <header>
+<body style="margin: 0; font-family: Arial, sans-serif;">
+
+    <header style="background-color: #333; color: white; padding: 20px; text-align: center;">
         <nav>
-            <ul>
-                <li><a href="#home">ホーム</a></li>
-                <li><a href="#about">私について</a></li>
-                <li><a href="#skills">スキル</a></li>
-                <li><a href="#contact">コンタクト</a></li>
+            <ul style="list-style-type: none; padding: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 15px;"><a href="#home" style="color: white; text-decoration: none;">ホーム</a></li>
+                <li style="margin: 0 15px;"><a href="#about" style="color: white; text-decoration: none;">私について</a></li>
+                <li style="margin: 0 15px;"><a href="#skills" style="color: white; text-decoration: none;">スキル</a></li>
+                <li style="margin: 0 15px;"><a href="#contact" style="color: white; text-decoration: none;">コンタクト</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home" class="section">
+    <section id="home" style="padding: 100px 20px; text-align: center; background: linear-gradient(to right, #ff7e5f, #feb47b); color: white; min-height: 100vh;">
         <div class="intro">
-            <h1>こんにちは！</h1>
-            <p>私のポートフォリオへようこそ。</p>
+            <h1 style="font-size: 50px; margin: 0;">こんにちは！</h1>
+            <p style="font-size: 24px; margin-top: 10px;">私のポートフォリオへようこそ。</p>
         </div>
     </section>
 
-    <section id="about" class="section">
-        <h2>私について</h2>
-        <p>簡単な自己紹介や経歴をここに記載します。</p>
+    <section id="about" style="padding: 100px 20px; text-align: center; background-color: #f9f9f9;">
+        <h2 style="font-size: 36px; margin-bottom: 20px;">私について</h2>
+        <p style="font-size: 18px; line-height: 1.6;">簡単な自己紹介や経歴をここに記載します。</p>
     </section>
 
-    <section id="skills" class="section">
-        <h2>スキル</h2>
-        <div class="skill-cards">
-            <div class="skill-card">
-                <h3>HTML & CSS</h3>
-                <p>フロントエンドの基本。</p>
+    <section id="skills" style="padding: 100px 20px; text-align: center; background-color: #ffffff;">
+        <h2 style="font-size: 36px; margin-bottom: 20px;">スキル</h2>
+        <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+            <div style="background-color: #ff7e5f; color: white; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3 style="font-size: 24px; margin-top: 0;">HTML & CSS</h3>
+                <p style="font-size: 16px;">フロントエンドの基本。</p>
             </div>
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-                <p>インタラクティブなWebサイトを作成。</p>
+            <div style="background-color: #feb47b; color: white; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3 style="font-size: 24px; margin-top: 0;">JavaScript</h3>
+                <p style="font-size: 16px;">インタラクティブなWebサイトを作成。</p>
             </div>
-            <div class="skill-card">
-                <h3>React</h3>
-                <p>モダンなフロントエンド開発。</p>
+            <div style="background-color: #ff7e5f; color: white; border-radius: 10px; padding: 20px; width: 250px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                <h3 style="font-size: 24px; margin-top: 0;">React</h3>
+                <p style="font-size: 16px;">モダンなフロントエンド開発。</p>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section">
-        <h2>コンタクト</h2>
-        <p>お気軽にご連絡ください。</p>
+    <section id="contact" style="padding: 100px 20px; text-align: center; background-color: #f9f9f9;">
+        <h2 style="font-size: 36px; margin-bottom: 20px;">コンタクト</h2>
+        <p style="font-size: 18px; line-height: 1.6;">お気軽にご連絡ください。</p>
     </section>
 
-    <footer>
-        <p>&copy; 2024 自己紹介サイト. All Rights Reserved.</p>
+    <footer style="background-color: #333; color: white; text-align: center; padding: 20px 0;">
+        <p style="margin: 0;">&copy; 2024 自己紹介サイト. All Rights Reserved.</p>
     </footer>
 
-    <script src="scripts.js"></script>
 </body>
 </html>
